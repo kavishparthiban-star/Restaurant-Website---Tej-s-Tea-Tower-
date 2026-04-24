@@ -5,14 +5,9 @@
     font-style: normal;
   } html {
     background-color:rgb(230, 183, 96);
-  } head {
-
-
-} body {
+  } body {
     font-family: Yanone Kaffeesatz;
-
-
-} h1 {
+  } h1 {
     text-align: center;
     padding: 17px;
     margin: -8px;
@@ -35,4 +30,32 @@
     border-radius: 150px;
     border: 10px solid rgb(243, 108, 84);
 
-}
+} .tejday {
+  text-decoration: underline;
+
+} ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: lightblue;
+  font-size: larger;
+  padding: 3px;
+  margin: -8px;
+
+} ul li {
+  float: left;
+
+} ul li a {
+display: flex;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+} ul li a:hover {
+  padding: 16px;
+  margin: -8px;
+  background-color: lightseagreen;
+
+} ul li a.active {
+  background-color: #04AA6D;
+} 
