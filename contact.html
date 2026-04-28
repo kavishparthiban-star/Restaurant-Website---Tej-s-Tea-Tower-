@@ -19,9 +19,26 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
     <!-- End of Navigation Bar -->
+    
     <h1>🍵TEJ'S TEA TOWER☕</h1>
-    <h2>ABOUT US</h2>
-    <br><br>
-    <p>King Labubu Tej Patel - Age 15 Years old (unc)<br>he donest need phone numero</p>
+    <h2>Contact Us</h2>
+    <br><br><br><br>
+    
+    <form onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+       
+        <label for="message">Message:</label><br>
+        <textarea id="message"></textarea><br><br>
+       
+        <button type="submit">Send</button>
+       </form>
+       
+       <p id="response"></p>
+    
+
+
+
+       <script src="script.js"></script>
 </body>
 </html>
